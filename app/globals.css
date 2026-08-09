@@ -1,0 +1,31 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@import 'shadcn/tailwind.css';
+
+@theme inline {
+  --color-primary: #062d3c;
+  --color-navy: #062d3c;
+  --color-red: #940000;
+  --color-green: #176042;
+  --color-cream: #f2f6f7;
+  --color-background: #000000;
+  --color-foreground: #ffffff;
+  --color-border: rgba(255,255,255,.18);
+  --font-sans: Arial, Helvetica, sans-serif;
+}
+
+:root { color-scheme: light; --background: #ffffff; --foreground: #062d3c; --radius: 0; }
+
+@layer base {
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; background: #ffffff; }
+  body { margin: 0; background: #ffffff; color: #062d3c; font-family: Arial, Helvetica, sans-serif; }
+  a { transition: opacity .2s ease; }
+  a:hover { opacity: .7; }
+  button, a { cursor: pointer; }
+}
+
+.kinfield-mark { display: inline-grid; grid-template-columns: repeat(2, 6px); grid-template-rows: repeat(2, 6px); gap: 1px; width: 13px; height: 13px; }
+.kinfield-mark i { display: block; background: currentColor; }
+.kinfield-mark i:nth-child(2) { opacity: 0; }
+.kinfield-mark i:nth-child(3) { opacity: 0; }
