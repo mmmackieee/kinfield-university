@@ -755,10 +755,10 @@ function Footer() {
         <div className="flex flex-col justify-center border-t border-white/10 lg:border-t-0 lg:pl-[4.5rem]">
           <div className="grid lg:grid-cols-2 sm:grid-cols-1">
             <div>
-              <h3 className="font-[Manrope] text-[clamp(0.8rem,0.9vw,0.875rem)] font-medium leading-[1.4] mt-6">
+              <h3 className="font-[Manrope] text-[clamp(0.8rem,0.9vw,0.875rem)] font-medium leading-[1.4] mt-6 lg:-mt-20">
                 Quick Links
               </h3>
-              <div className="flex flex-col gap-4 font-[Manrope] text-[clamp(0.8rem,0.9vw,0.875rem)] font-normal leading-[1.4] text-white/70">
+              <div className="flex flex-col gap-4 font-[Manrope] text-[clamp(0.8rem,0.9vw,0.875rem)] font-normal leading-[1.4] text-white/70 mt-4">
                 <a href="#home">Home</a>
                 <a href="#about">About</a>
                 <a href="#programs">Program</a>
@@ -766,20 +766,20 @@ function Footer() {
               </div>
             </div>
             <div>
-              <h3 className="font-[Manrope] text-[clamp(0.8rem,0.9vw,0.875rem)] font-medium leading-[1.4]">
+              <h3 className="font-[Manrope] text-[clamp(0.8rem,0.9vw,0.875rem)] font-medium leading-[1.4] lg:-mt-20">
                 References
               </h3>
-              <div className="flex flex-col gap-4 font-[Manrope] text-[clamp(0.8rem,0.9vw,0.875rem)] font-normal leading-[1.4] text-white/70">
+              <div className="flex flex-col gap-4 font-[Manrope] text-[clamp(0.8rem,0.9vw,0.875rem)] font-normal leading-[1.4] text-white/70 mt-4">
                 <a href="#">Licenses</a>
-                <a href="#about">Style Guide</a>
+                <a href="#">Style Guide</a>
               </div>
             </div>
           </div>
         </div>
 
         {/* Social + copyright */}
-        <div className="flex flex-col justify-center border-t border-white/10 lg:border-l lg:border-t-0 ">
-          <h3 className="font-[Manrope] text-[clamp(0.8rem,0.9vw,0.875rem)] font-medium leading-[1.4] lg:pl-4 mt-6">
+        <div className="flex flex-col justify-center border-t border-white/10 lg:border-l lg:border-t-0 mb-6">
+          <h3 className="font-[Manrope] text-[clamp(0.8rem,0.9vw,0.875rem)] font-medium leading-[1.4] lg:pl-4 mt-6 lg:-mt-20">
             Social Media
           </h3>
           <div className="flex gap-6 font-[Manrope] text-[clamp(0.8rem,0.9vw,0.875rem)] font-normal leading-[1.4] text-white/70 mt-4 lg:pl-4">
