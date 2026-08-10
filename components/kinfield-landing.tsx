@@ -727,9 +727,9 @@ function Newsletter() {
 function Footer() {
   return (
     <footer className="bg-[#01293A] text-white">
-      <div className="mx-auto grid gap-10 max-w-[1440px] px-6 py-12 lg:grid-cols-3 lg:items-stretch">
+      <div className="mx-auto grid gap-10 max-w-[1440px] px-6 lg:grid-cols-3 lg:items-stretch">
         {/* Brand + contact */}
-        <div className="flex flex-col justify-center border-white/10 lg:border-r">
+        <div className="flex flex-col justify-center border-white/10 lg:border-r py-12">
           <div className="border-b border-white/10 pb-8 lg:pl-4 lg:pb-12">
             <div className="flex items-center gap-2 font-[Manrope] text-[clamp(1.125rem,1.5vw,1.25rem)] font-semibold leading-[1.4]">
               <Mark light />
