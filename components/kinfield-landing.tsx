@@ -727,9 +727,9 @@ function Newsletter() {
 function Footer() {
   return (
     <footer className="bg-[#01293A] text-white">
-      <div className="mx-auto grid gap-10 max-w-[1440px] lg:grid-cols-3 lg:items-stretch">
+      <div className="mx-auto grid gap-10 max-w-[1440px] px-6 py-12 lg:grid-cols-3 lg:items-stretch">
         {/* Brand + contact */}
-        <div className="flex flex-col justify-center border-white/10 lg:border-r pt-12 pb-12 pl-6 lg:pl-0">
+        <div className="flex flex-col justify-center border-white/10 lg:border-r">
           <div className="border-b border-white/10 pb-8 lg:pl-4 lg:pb-12">
             <div className="flex items-center gap-2 font-[Manrope] text-[clamp(1.125rem,1.5vw,1.25rem)] font-semibold leading-[1.4]">
               <Mark light />
@@ -752,34 +752,34 @@ function Footer() {
         </div>
 
         {/* Quick Links + References */}
-        <div className="flex flex-col justify-center border-t border-white/10 lg:border-t-0 pl-6 lg:pl-0">
+        <div className="flex flex-col justify-center border-t border-white/10 lg:border-t-0 lg:pl-[4.5rem]">
           <div className="grid lg:grid-cols-2 sm:grid-cols-1">
-            <div className='pt-6 lg:-mt-24'>
-              <h3 className="font-[Manrope] text-[clamp(0.8rem,0.9vw,0.875rem)] font-medium leading-[1.4]">
+            <div>
+              <h3 className="font-[Manrope] text-[clamp(0.8rem,0.9vw,0.875rem)] font-medium leading-[1.4] mt-6">
                 Quick Links
               </h3>
-              <div className="flex flex-col gap-4 font-[Manrope] text-[clamp(0.8rem,0.9vw,0.875rem)] font-normal leading-[1.4] text-white/70 mt-4">
+              <div className="flex flex-col gap-4 font-[Manrope] text-[clamp(0.8rem,0.9vw,0.875rem)] font-normal leading-[1.4] text-white/70">
                 <a href="#home">Home</a>
                 <a href="#about">About</a>
                 <a href="#programs">Program</a>
                 <a href="#contact">Contact</a>
               </div>
             </div>
-            <div className='lg:-mt-18'>
+            <div>
               <h3 className="font-[Manrope] text-[clamp(0.8rem,0.9vw,0.875rem)] font-medium leading-[1.4]">
                 References
               </h3>
-              <div className="flex flex-col gap-4 font-[Manrope] text-[clamp(0.8rem,0.9vw,0.875rem)] font-normal leading-[1.4] text-white/70 mt-4">
+              <div className="flex flex-col gap-4 font-[Manrope] text-[clamp(0.8rem,0.9vw,0.875rem)] font-normal leading-[1.4] text-white/70">
                 <a href="#">Licenses</a>
-                <a href="#">Style Guide</a>
+                <a href="#about">Style Guide</a>
               </div>
             </div>
           </div>
         </div>
 
         {/* Social + copyright */}
-        <div className="flex flex-col justify-center border-t border-white/10 lg:border-l lg:border-t-0 pt-0 lg:-mt-24 pl-6 lg:pl-0">
-          <h3 className="font-[Manrope] text-[clamp(0.8rem,0.9vw,0.875rem)] font-medium leading-[1.4] mt-6 lg:mt-0 lg:pl-4">
+        <div className="flex flex-col justify-center border-t border-white/10 lg:border-l lg:border-t-0 ">
+          <h3 className="font-[Manrope] text-[clamp(0.8rem,0.9vw,0.875rem)] font-medium leading-[1.4] lg:pl-4 mt-6">
             Social Media
           </h3>
           <div className="flex gap-6 font-[Manrope] text-[clamp(0.8rem,0.9vw,0.875rem)] font-normal leading-[1.4] text-white/70 mt-4 lg:pl-4">
@@ -788,8 +788,8 @@ function Footer() {
             <a href="#footer">YouTube</a>
           </div>
 
-          <div className="mt-8 border-t border-white/15 pt-3 font-[Manrope] text-[clamp(0.8rem,0.9vw,0.875rem)] font-normal leading-[1.4] text-white/50 pl-4 mb-6">
-            © Copyright 2026 Kinfield. Powered by Webflow.
+          <div className="mt-8 border-t border-white/15 pt-6 font-[Manrope] text-[clamp(0.8rem,0.9vw,0.875rem)] font-normal leading-[1.4] text-white/50 pl-4">
+            <p>© Copyright 2026 Kinfield. Powered by Webflow.</p>
           </div>
         </div>
       </div>
