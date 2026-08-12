@@ -718,7 +718,7 @@ function Newsletter() {
             e.preventDefault();
             setSubscribed(true);
           }}
-          className="flex max-w-lg flex-col justify-center gap-5 inline-block w-full mt-8"
+          className="flex max-w-lg justify-between gap-5 w-full mt-8"
         >
           <input
             required
@@ -728,15 +728,18 @@ function Newsletter() {
             className="border-b border-primary/20 bg-transparent px-0 py-4 outline-none placeholder:text-primary/40 w-2/3 pr-2"
           />
 
-          {subscribed ? (
-            <p className="text-sm text-green">
-              You’re on the list. Thanks for subscribing.
-            </p>
-          ) : (
-            <button className="w-fit bg-red px-8 py-4 text-sm text-white rounded-md">
-              Subscribe
-            </button>
-          )}
+          <div className='mt-10 md:mt-16 lg:mt-21'>
+            {subscribed ? (
+              <p className="text-sm text-green">
+                You’re on the list. Thanks for subscribing.
+              </p>
+            ) : (
+              <button className=" w-fit bg-red px-8 py-4 text-sm text-white rounded-md">
+                Subscribe
+              </button>
+            )}
+          </div>
+
         </form>
       </div>
     </section>
