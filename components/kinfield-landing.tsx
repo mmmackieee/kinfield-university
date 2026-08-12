@@ -725,7 +725,7 @@ function Newsletter() {
             type="email"
             placeholder="Enter your email"
             aria-label="Email address"
-            className="flex-1 rounded-md border-none bg-primary/5 px-4 py-4 outline-none placeholder:text-primary/40"
+            className="flex-1 border-b border-primary/20 bg-transparent px-0 py-4 outline-none placeholder:text-primary/40"
           />
 
           {subscribed ? (
